@@ -10,11 +10,17 @@
 						<template slot="title"><i class="el-icon-document"></i>文档</template>
 						<el-menu-item index="2-1">
 							<router-link to="/dashboard/document" style="text-decoration:none;color:#fff">
-								<el-button style="background-color:#ff7200;border-color: #ff7200" type="primary">注册</el-button>
+								<el-menu-item index="2-1">
+									发布
+								</el-menu-item>
 							</router-link>
 						</el-menu-item>
 						<el-menu-item index="2-2">
-							发布
+							<router-link to="/dashboard/document/list" style="text-decoration:none;color:#fff">
+								<el-menu-item index="2-2">
+									列表
+								</el-menu-item>
+							</router-link>
 						</el-menu-item>
 					</el-submenu>
 					<el-submenu index="3">

@@ -19,6 +19,11 @@ export default new Router({
                     name: 'Document',
                     component: () => import('@/components/views/document/edit/index'),
                 },
+                {
+                    path: '/dashboard/document/list',
+                    name: 'Document',
+                    component: () => import('@/components/views/document/list/index'),
+                },
             ]
         },
     ]
